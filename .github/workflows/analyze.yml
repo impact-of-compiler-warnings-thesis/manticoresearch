@@ -21,7 +21,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt update
-          sudo apt install ninja-build
+          sudo apt install ninja-build galera-3
       - name: Generate build files
         run: |
           mkdir build && cd build
